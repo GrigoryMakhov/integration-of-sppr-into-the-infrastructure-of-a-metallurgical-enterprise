@@ -74,11 +74,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCClient\\SCClient.csproj",
+      "projectUniqueName": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCClient\\SCClient.csproj",
       "projectName": "SCClient",
-      "projectPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCClient\\SCClient.csproj",
+      "projectPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCClient\\SCClient.csproj",
       "packagesPath": "C:\\Users\\Grisha\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCClient\\obj\\",
+      "outputPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj": {
-              "projectPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj"
+            "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj": {
+              "projectPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj"
             }
           }
         }

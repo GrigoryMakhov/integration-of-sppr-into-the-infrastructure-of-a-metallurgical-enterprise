@@ -10,8 +10,8 @@ using SpecialityCatalogWebApi.Data;
 namespace SpecialityCatalogWebApi.Migrations
 {
     [DbContext(typeof(StudentsDbContext))]
-    [Migration("20221111153831_scmigration")]
-    partial class scmigration
+    [Migration("20230429190746_createDataBase")]
+    partial class createDataBase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -50,6 +50,20 @@ namespace SpecialityCatalogWebApi.Migrations
                     b.ToTable("Groups");
                 });
 
+            modelBuilder.Entity("SCData.Models.Institute", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Institutes");
+                });
+
             modelBuilder.Entity("SCData.Models.Student", b =>
                 {
                     b.Property<int>("Id")
@@ -66,6 +80,9 @@ namespace SpecialityCatalogWebApi.Migrations
                     b.Property<int>("GroupId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("InstituteId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -79,6 +96,8 @@ namespace SpecialityCatalogWebApi.Migrations
                     b.HasIndex("DirectionId");
 
                     b.HasIndex("GroupId");
+
+                    b.HasIndex("InstituteId");
 
                     b.ToTable("Students");
                 });
@@ -97,9 +116,17 @@ namespace SpecialityCatalogWebApi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("SCData.Models.Institute", "Institute")
+                        .WithMany()
+                        .HasForeignKey("InstituteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Direction");
 
                     b.Navigation("Group");
+
+                    b.Navigation("Institute");
                 });
 #pragma warning restore 612, 618
         }

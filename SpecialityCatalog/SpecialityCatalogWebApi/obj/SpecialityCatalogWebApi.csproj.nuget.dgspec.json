@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\магистратура\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj": {}
+    "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj": {
+    "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj",
+        "projectUniqueName": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj",
         "projectName": "SCData",
-        "projectPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj",
+        "projectPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj",
         "packagesPath": "C:\\Users\\Grisha\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\obj\\",
+        "outputPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\Учеба\\магистратура\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj": {
+    "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj",
+        "projectUniqueName": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj",
         "projectName": "SpecialityCatalogWebApi",
-        "projectPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj",
+        "projectPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SpecialityCatalogWebApi\\SpecialityCatalogWebApi.csproj",
         "packagesPath": "C:\\Users\\Grisha\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SpecialityCatalogWebApi\\obj\\",
+        "outputPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SpecialityCatalogWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj": {
-                "projectPath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj"
+              "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj": {
+                "projectPath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj"
               }
             }
           }
@@ -107,6 +107,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"

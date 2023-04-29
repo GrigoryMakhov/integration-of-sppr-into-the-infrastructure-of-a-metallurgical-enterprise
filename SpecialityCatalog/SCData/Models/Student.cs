@@ -30,5 +30,10 @@ namespace SCData.Models
 
         public Direction? Direction { get; set; }
 
+        [ForeignKey(nameof(Institute))]
+        public int InstituteId { get; set; }
+
+        public Institute? Institute { get; set; }
+
     }
 }

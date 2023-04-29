@@ -10,6 +10,8 @@ namespace SpecialityCatalogWebApi.Data
 
         public DbSet<Direction> Directions { get; set; }
 
+        public DbSet<Institute> Institutes { get; set; }
+
         public StudentsDbContext (DbContextOptions<StudentsDbContext> options): base (options)
         {
 

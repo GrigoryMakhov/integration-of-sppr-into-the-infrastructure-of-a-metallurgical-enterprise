@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AeEJ+jKchokbYbU+PamPDfoRaQfbtfwehYLbsZFhssS2ihxmN/H6DCmt9opEKL6GcBdGNak5AysQUZfoCSHFsA==",
+  "dgSpecHash": "EI5s+gXZOXxOqeh8JPqquaZn8FqX8BkFMjcEwhJltDGI9cise6btA5mx3Rz4gpdWqzgfdIJpek5EzF+nIyZkwA==",
   "success": true,
-  "projectFilePath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCClient\\SCClient.csproj",
+  "projectFilePath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCClient\\SCClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Grisha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

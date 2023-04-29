@@ -8,73 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SCClient
 build_property.RootNamespace = SCClient
-build_property.ProjectDir = D:\Учеба\магистратура\SpecialityCatalog\SCClient\
+build_property.ProjectDir = D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Учеба\магистратура\SpecialityCatalog\SCClient
+build_property.MSBuildProjectDirectory = D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Direction/Add.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Direction/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0aW9uXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Direction/Edit.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Direction/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0aW9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Direction/Index.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Direction/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Direction/Privacy.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Direction/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0aW9uXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Group/Add.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Group/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Group/Edit.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Group/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Group/Index.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Group/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Group/Privacy.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Group/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Shared/Error.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Institute/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Institute/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Institute/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Institute/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRlXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Student/Add.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Student/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Student/Edit.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Student/Index.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/_ViewImports.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/_ViewStart.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Учеба/магистратура/SpecialityCatalog/SCClient/Views/Shared/_Layout.cshtml]
+[D:/Учеба/магистратура/Интеграция СППР/integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise/SpecialityCatalog/SCClient/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dj5ktp5w1q

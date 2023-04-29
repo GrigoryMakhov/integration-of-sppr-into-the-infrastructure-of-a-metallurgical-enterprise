@@ -22,6 +22,7 @@ namespace SpecialityCatalogWebApi.Controllers
             var students = _studentsDbContext.Students
                 .Include(x=>x.Group)
                 .Include(x => x.Direction)
+                .Include(x => x.Institute)
                 .ToList();
 
             return students;
@@ -53,6 +54,7 @@ namespace SpecialityCatalogWebApi.Controllers
             existStudent.MiddleName = student.MiddleName;
             existStudent.GroupId = student.GroupId;
             existStudent.DirectionId = student.DirectionId;
+            existStudent.InstituteId = student.InstituteId;
 
             _studentsDbContext.Students.Update(existStudent);
             _studentsDbContext.SaveChanges();

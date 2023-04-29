@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nTGL+/geLwAUWtfG9dVBpWXct8kh4jUokmqj15Lz5wN8VpDGJn0jDxvawOYZUUNOkUFFxpzcriKKnIkoFR9TgA==",
+  "dgSpecHash": "VUbNjsPxBmYtw7gjuOKIVCk/ce6ZM3bHKbSR6WVnt4OMTnC7qoFf5KeLmIkTnmcMqu5VBuH/n/K0uEJ2mSna1g==",
   "success": true,
-  "projectFilePath": "D:\\Учеба\\магистратура\\SpecialityCatalog\\SCData\\SCData.csproj",
+  "projectFilePath": "D:\\Учеба\\магистратура\\Интеграция СППР\\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\\SpecialityCatalog\\SCData\\SCData.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -22,3 +22,15 @@ D:\Учеба\магистратура\SpecialityCatalog\SCData\obj\Debug\net6.0
 D:\Учеба\магистратура\SpecialityCatalog\SCData\obj\Debug\net6.0\refint\SCData.dll
 D:\Учеба\магистратура\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.pdb
 D:\Учеба\магистратура\SpecialityCatalog\SCData\obj\Debug\net6.0\ref\SCData.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\bin\Debug\net6.0\SCData.deps.json
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\bin\Debug\net6.0\SCData.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\bin\Debug\net6.0\SCData.pdb
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.csproj.AssemblyReference.cache
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.AssemblyInfoInputs.cache
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.AssemblyInfo.cs
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.csproj.CoreCompileInputs.cache
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\refint\SCData.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\SCData.pdb
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCData\obj\Debug\net6.0\ref\SCData.dll

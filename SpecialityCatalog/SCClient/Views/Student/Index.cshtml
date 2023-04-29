@@ -17,6 +17,7 @@
                 <th>Отчество</th>
                 <th>Группа</th>
                 <th>Направление подготовки</th>
+                <th>Институт</th>
                 <th>Действия</th>
             </tr>
         </thead>
@@ -30,6 +31,7 @@
                     <td>@student.MiddleName</td>
                     <td>@student.Group.Name</td>
                     <td>@student.Direction?.Name</td>
+                    <td>@student.Institute?.Name</td>
                     <td>
                         <a href = "/Student/Edit/@student.Id" >Редактировать</a>
                         <a href="Student/Remove/@student.Id">Удалить</a>

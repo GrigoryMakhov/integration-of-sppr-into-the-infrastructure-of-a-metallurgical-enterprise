@@ -1,4 +1,4 @@
-﻿@model (SelectList groups, SelectList directions) 
+﻿@model (SelectList groups, SelectList directions, SelectList institutes)
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -31,6 +31,13 @@
     <div class=" my-3">
         <label>Направление подготовки:</label>
         <select name="DirectionId" asp-items="Model.directions" class=" form-control">
+        </select>
+
+    </div>
+
+    <div class=" my-3">
+        <label>Институт:</label>
+        <select name="InstituteId" asp-items="Model.institutes" class=" form-control">
         </select>
 
     </div>
