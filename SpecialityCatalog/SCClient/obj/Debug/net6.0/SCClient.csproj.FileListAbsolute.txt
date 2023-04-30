@@ -88,3 +88,10 @@ D:\Учеба\магистратура\Интеграция СППР\integration
 D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\obj\Debug\net6.0\SCClient.pdb
 D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\obj\Debug\net6.0\SCClient.genruntimeconfig.cache
 D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\obj\Debug\net6.0\ref\SCClient.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Humanizer.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Учеба\магистратура\Интеграция СППР\integration-of-sppr-into-the-infrastructure-of-a-metallurgical-enterprise\SpecialityCatalog\SCClient\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll

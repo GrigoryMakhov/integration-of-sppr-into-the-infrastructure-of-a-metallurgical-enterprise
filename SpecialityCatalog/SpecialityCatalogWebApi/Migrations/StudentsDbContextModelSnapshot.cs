@@ -100,6 +100,33 @@ namespace SpecialityCatalogWebApi.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("SCData.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "admin",
+                            Password = "123"
+                        });
+                });
+
             modelBuilder.Entity("SCData.Models.Student", b =>
                 {
                     b.HasOne("SCData.Models.Direction", "Direction")
