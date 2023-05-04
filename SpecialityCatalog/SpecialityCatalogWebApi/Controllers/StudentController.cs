@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SCData.Models;
 using SpecialityCatalogWebApi.Data;
+using static SpecialityCatalogWebApi.Controllers.GroupController;
 
 namespace SpecialityCatalogWebApi.Controllers
 {
@@ -16,10 +17,33 @@ namespace SpecialityCatalogWebApi.Controllers
             _studentsDbContext = studentsDbContext;
         }
 
-        [HttpGet]
-        public List<Student> Get()
+        public class StudentFilter
         {
-            var students = _studentsDbContext.Students
+            public int? StudentId { get; set; }
+            public string? LastName { get; set; }
+
+            public string? FirstName { get; set; }
+
+            public string? MiddleName { get; set; }
+           
+
+        }
+
+
+        [HttpPost]
+        [Route("[action]")]
+        public List<Student> Index([FromBody] StudentFilter filter)
+        {
+
+            var quaery = _studentsDbContext.Students.AsQueryable();
+
+            if (filter.StudentId != null) quaery = quaery.Where(x => x.Id == filter.StudentId);
+            if (!string.IsNullOrEmpty(filter.LastName)) quaery = quaery.Where(x => x.LastName.Contains(filter.LastName));
+            if (!string.IsNullOrEmpty(filter.FirstName)) quaery = quaery.Where(x => x.FirstName.Contains(filter.FirstName));
+            if (!string.IsNullOrEmpty(filter.MiddleName)) quaery = quaery.Where(x => x.MiddleName.Contains(filter.MiddleName));
+
+
+            var students = quaery
                 .Include(x=>x.Group)
                 .Include(x => x.Direction)
                 .Include(x => x.Institute)

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SCData.Models;
 using SpecialityCatalogWebApi.Data;
+using static SpecialityCatalogWebApi.Controllers.DirectionController;
 
 namespace SpecialityCatalogWebApi.Controllers
 {
@@ -14,13 +15,26 @@ namespace SpecialityCatalogWebApi.Controllers
         {
             _studentsDbContext = studentsDbContext;
         }
-
-        [HttpGet]
-        public List<Group> Get()
+        public class GroupFilter
         {
-            var groups = _studentsDbContext.Groups.ToList();
+            public int? GroupId { get; set; }
+            public string? Name { get; set; }
+            public GroupType? Type { get; set; }
 
+        }
 
+        [HttpPost]
+        [Route("[action]")]
+        public List<Group> Index([FromBody] GroupFilter filter)
+        {
+
+            var quaery = _studentsDbContext.Groups.AsQueryable();
+
+            if (filter.GroupId != null) quaery = quaery.Where(x => x.Id == filter.GroupId);
+            if (!string.IsNullOrEmpty(filter.Name)) quaery = quaery.Where(x => x.Name.Contains(filter.Name));
+            if (filter.Type != null) quaery = quaery.Where(x => x.Type == filter.Type);
+
+            var groups = quaery.ToList();
             return groups;
         }
 

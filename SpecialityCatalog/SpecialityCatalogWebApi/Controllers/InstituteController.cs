@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SCData.Models;
 using SpecialityCatalogWebApi.Data;
+using static SpecialityCatalogWebApi.Controllers.StudentController;
 
 namespace SpecialityCatalogWebApi.Controllers
 {
@@ -15,12 +16,27 @@ namespace SpecialityCatalogWebApi.Controllers
             _studentsDbContext = studentsDbContext;
         }
 
-        [HttpGet]
-        public List<Institute> Get()
+
+        public class InstitutetFilter
         {
-            var institutes = _studentsDbContext.Institutes.ToList();
+            public int? InstitutetId { get; set; }
+            public string? Name { get; set; }
+
+            
 
 
+        }
+
+        [HttpPost]
+        [Route("[action]")]
+        public List<Institute> Index([FromBody] InstitutetFilter filter)
+        {
+            var quaery = _studentsDbContext.Institutes.AsQueryable();
+
+            if (filter.InstitutetId != null) quaery = quaery.Where(x => x.Id == filter.InstitutetId);
+            if (!string.IsNullOrEmpty(filter.Name)) quaery = quaery.Where(x => x.Name.Contains(filter.Name));
+
+            var institutes = quaery.ToList();
             return institutes;
         }
 
