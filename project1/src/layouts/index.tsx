@@ -46,7 +46,7 @@ export default () => {
     key: 'groups',
   },
   {
-    label: <Link to="/student">Студенты</Link>,
+    label: <Link to="/student">Students</Link>,
     key: 'students',
   },
   {
@@ -65,7 +65,7 @@ export default () => {
   return (
     <>
       <Access accessible={access.isUser}>
-        <Layout className="layout">
+        <Layout className="layout" style={{height:"100vh"}}>
           <Header>
             <div className="logo" />
             <Menu

@@ -46,17 +46,17 @@ export default (props: any) => {
                     <Input placeholder="Введите отчество"/>
                 </Form.Item>
 
-                <Form.Item name="group" label="Группа">
+                <Form.Item name="groupId" label="Группа">
                     <Select placeholder="Введите группу"
                     options={groups}/>
                 </Form.Item>
 
-                <Form.Item name="direction" label="Направление">
+                <Form.Item name="directionId" label="Направление">
                     <Select placeholder="Введите направление"
                     options={directions}/>
                 </Form.Item>
 
-                <Form.Item name="institute" label="Институт">
+                <Form.Item name="instituteId" label="Институт">
                     <Select placeholder="Введите институт"
                     options={institutes}/>
                 </Form.Item>

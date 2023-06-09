@@ -66,6 +66,10 @@ export default defineConfig({
       component: './editInstitute/[id]',
     },
     {
+      path: '/editStudent/:id',
+      component: './editStudent/[id]',
+    },
+    {
       path: '/userEdit',
       component: './userEdit',
     },

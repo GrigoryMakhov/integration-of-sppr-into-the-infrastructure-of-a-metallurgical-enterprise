@@ -1,4 +1,5 @@
 import FormGroupEdit from "@/components/FormGroupEdit";
+import FormStudentEdit from "@/components/FormStudentEdit";
 import { Link, useParams, history } from "@umijs/max";
 import { request } from "@umijs/max";
 import { Button, Form, Input, Spin, Table } from "antd";
@@ -31,7 +32,7 @@ const DocsPage = () => {
     <>
     {data ? <Form onFinish={editHendler} form={form} initialValues={data}>
       <Form.Item name="id" hidden></Form.Item>
-      <FormGroupEdit />
+      <FormStudentEdit />
 
       <Button type="primary" htmlType="submit">Сохранить</Button>
     </Form> : <Spin />}

@@ -1,0 +1,1 @@
+В папке project1 приложение на React, в папке SpecialityCatalog приложение webApi.
